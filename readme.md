@@ -40,13 +40,13 @@ Git · VS Code · Figma · Firebase · MongoDB
 
 ### 🌐 Connect With Me
 <p align="center">
-  <a href="https://linkedin.com/in/sushmit-sharma" target="_blank">
+  <a href="https://www.linkedin.com/in/sushmit-sharma-969aa8323/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://twitter.com/sushmit_sharma" target="_blank">
+  <a href="https://x.com/sushmit6973" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-black?logo=x&logoColor=white" />
   </a>
-  <a href="mailto:sushmitsharma@gmail.com">
+  <a href="sushmitshrm@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" />
   </a>
 </p>
