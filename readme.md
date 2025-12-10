@@ -69,3 +69,4 @@ Git · VS Code · Figma · Firebase · MongoDB
 ---
 
 <p align="center">💡 “Code. Learn. Innovate.”</p>
+https://github.com/Sushmit94/Sushmit94/blob/output/snake.svg
