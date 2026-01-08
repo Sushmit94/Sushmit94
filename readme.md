@@ -14,7 +14,6 @@
 
 ```javascript
 const sushmit = {
-    location: "Aligarh, India 🇮🇳",
     currentFocus: "AI + Blockchain Analytics",
     learning: ["DevOps", "Rust", "Zero-Knowledge Proofs"],
     askMeAbout: ["Web3", "React", "Smart Contracts", "DeFi"],
