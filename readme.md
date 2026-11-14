@@ -1,221 +1,139 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=6,11,20&text=Sushmit%20Sharma&fontSize=70&fontColor=ffffff&stroke=A855F7&strokeWidth=2&animation=fadeIn&desc=Full-Stack%20%7C%20Web3%20%7C%20ZK%20Systems%20%7C%20AI%20Builder&descAlignY=62&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,50:1E3A8A,100:7C3AED&text=Sushmit%20Sharma&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20%C2%B7%20Backend%20%C2%B7%20System%20Design%20%C2%B7%20Applied%20AI&descAlignY=60&descSize=18&animation=fadeIn" alt="Sushmit Sharma" />
 
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1200&color=7C3AED&center=true&vCenter=true&width=720&lines=I+build+scalable+backends+and+real-time+systems.;Event-driven+architecture+%7C+Redis+%7C+PostgreSQL+%7C+WebSockets.;LLM+agents%2C+fine-tuning+and+evaluation+pipelines.;CSE+undergrad+at+LNMIIT+Jaipur+%C2%B7+Open+to+internships.)](https://git.io/typing-svg)
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=A855F7&center=true&vCenter=true&width=700&lines=I+ship+production+systems%2C+not+demos.;Deployed+smart+contracts+on+EVM+mainnets.;Building+at+the+intersection+of+AI+%26+Web3.;ZK+proofs+%7C+Multi-agent+AI+%7C+DeFi+protocols.;TRI+AI+Cohort+%E2%80%94+Google+DeepMind+%F0%9F%A7%A0)](https://git.io/typing-svg)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-[![TRI AI Cohort](https://img.shields.io/badge/TRI%20AI%20Cohort-Google%20DeepMind-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://)
-[![Uniswap Hook Incubator](https://img.shields.io/badge/Uniswap%20Hook%20Incubator-Graduate-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)](https://)
-[![Midnight IOG](https://img.shields.io/badge/Midnight%20IOG-ZK%20Ambassador-8B5CF6?style=for-the-badge&logo=cardano&logoColor=white)](https://)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sushmit-sharma-969aa8323/)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/sushmit6973)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sushmitshrm@gmail.com)
+![Profile views](https://komarev.com/ghpvc/?username=Sushmit94&style=flat-square&color=7C3AED&label=views)
 
 </div>
 
 ---
 
-## ◈ About
+## About
 
-```typescript
-const sushmit: Builder = {
-  education:   "B.Sc. CSE · LNMIIT Jaipur · 2024–2028",
-  focus:       ["ZK Systems", "Multi-Agent AI", "DeFi Protocols", "Distributed Backends"],
-  deployments: "20+ smart contracts · EVM mainnets + Solana",
-  currently:   "Building at the frontier of AI × Blockchain",
-  principle:   "When the library is missing — fork it. When the protocol is slow — rewrite it.",
-};
-```
+I design and ship backend-heavy products end to end: data models, APIs, queues, caches, real-time sync, and the frontends on top. I also build with LLMs, from agent orchestration to QLoRA fine-tuning and evaluation.
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="contribution snake"/>
-
-**I'm a self-taught systems builder** from Jaipur focused on the hardest intersection in tech right now — **verifiable AI and on-chain intelligence.** I've shipped prediction markets on Celo mainnet, ZK privacy systems on Solana, multi-agent payment visualization engines, and real-time collaborative backends — all from scratch, as a 2nd-year undergrad.
-
-Selected for the **TRI AI Cohort** (Google DeepMind) and **Uniswap Hook Incubator**. Ambassador for **Midnight (IOG)** — Cardano's zero-knowledge privacy stack.
-
-<br clear="right"/>
+- **Strength:** turning a vague requirement into a working, deployed, observable system
+- **Interests:** distributed backends, real-time collaboration, LLM agents, ML evaluation
+- **Recognition:** TRI AI Cohort (Google DeepMind) · Uniswap Hook Incubator graduate ·Previously Ambassador at Midnight,Devdock AI
 
 ---
 
-## ◈ Flagship Projects
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [⬡ MonoAgent-X](https://monad-x.vercel.app/)
-**AI Agent Micropayment Visualizer · Monad × x402**
+### [CollabFlow](https://github.com/Sushmit94) · Real-time workspace
+CRDT-based collaborative editing with **under 50 ms** update propagation.
 
-Interactive force-directed graph visualizing AI agent payment flows across high-throughput networks. Renders **100K+ nodes/edges at 60+ FPS** with zero UI lag.
+`Yjs` `WebSockets` `Redis Pub/Sub` `Node.js`
 
-- Automated pipeline detection — clusters settlement chains & recurring payment patterns
-- Accelerated debugging of autonomous AI interactions by **80%**
-- TypeScript · Force-Directed Graph · Monad · x402
-
-[![Live](https://img.shields.io/badge/Live-monad--x.vercel.app-A855F7?style=flat-square&logo=vercel)](https://monad-x.vercel.app/)
-[![Repo](https://img.shields.io/badge/Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Sushmit94/MonadX.git)
+Conflict-free sync model, horizontally scalable fan-out through Redis.
 
 </td>
 <td width="50%" valign="top">
 
-### [◈ CeloMarket](https://predictionmarkets-omega.vercel.app/)
-**Polymarket-style Prediction Market · Celo Mainnet**
+### [CeloMarket](https://github.com/Sushmit94/predictionmarkets) · Prediction market platform
+Full-stack, live in production: [demo](https://predictionmarkets-omega.vercel.app/).
 
-LMSR-pricing smart contracts using GoodDollar (G$) as collateral with sybil-resistance via GoodDollar Identity SDK. **Live on mainnet, contracts verified on-chain.**
+`Fastify` `PostgreSQL` `Redis` `Next.js` `Solidity`
 
-- Custom TypeScript block indexer for sub-second market state reads
-- Fastify REST + WebSocket API with Redis pub/sub for real-time price streams
-- Solidity · TypeScript · Fastify · PostgreSQL · Redis · Next.js · wagmi/viem
-
-[![Live](https://img.shields.io/badge/Live-predictionmarkets-A855F7?style=flat-square&logo=vercel)](https://predictionmarkets-omega.vercel.app/)
-[![Repo](https://img.shields.io/badge/Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Sushmit94/predictionmarkets.git)
+Custom block indexer for fast reads, REST + WebSocket API, Redis pub/sub for live price streams.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [⟁ Fractal Inference Swarms](https://github.com/Sushmit94/Fractal-Inference-Swarms.git)
-**Decentralized AI Inference · Cortensor × x402**
+### [AI Drive Yield](https://aidriveyield.vercel.app) · High-throughput inference API
+FastAPI microservice serving allocation decisions across **50+ protocols** at **10,000+ queries/min**.
 
-Fractal mesh of AI inference nodes with micropayment-gated access via x402 protocol. Nodes self-organize, route tasks to available compute, and settle payments atomically.
+`FastAPI` `Python` `Backtesting`
 
-- Trustless, permissionless AI inference at the edge
-- x402 micropayments · Cortensor · Multi-agent orchestration
-
-[![Repo](https://img.shields.io/badge/Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Sushmit94/Fractal-Inference-Swarms.git)
+Backtested portfolio Sharpe ratio improved by 25%.
 
 </td>
 <td width="50%" valign="top">
 
-### [🔏 ZkMail](https://github.com/Sushmit94/zk-mail.git)
-**Privacy-Preserving Email Security · Solana + ZK Proofs**
+### [Solidity CTF Platform](https://github.com/Sushmit94) · Sandboxed code execution
+"LeetCode for Solidity" with isolated execution workers.
 
-ZK-based phishing/malware detection DApp — client-side threat scoring without exposing email content. Proactive defense against **99% of common email threats.**
+`Docker` `BullMQ` `Redis` `Foundry`
 
-- SHA-256 ZK proof artifacts submitted as immutable records to Solana via Anchor
-- Decentralized email fetching via Mailchain · Phantom Wallet auth
-- ZK Proofs · Solana Anchor · Rust · Mailchain · React
+Job queue plus bytecode caching cut recompilation by about **70%**.
 
-[![Repo](https://img.shields.io/badge/Repo-GitHub-181717?style=flat-square&logo=github)](https://github.com/Sushmit94/zk-mail.git)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [SLM Vulnerability Detection](https://github.com/Sushmit94/slm) · ML evaluation pipeline
+QLoRA-fine-tuned **Gemma 2 (2B)** vs. **Semgrep** on C/C++ vulnerability detection with the Devign dataset.
+
+`Python` `Hugging Face` `QLoRA` `Semgrep`
+
+Near-duplicate removal to prevent train/test leakage, a shared prompt contract, and a pluggable evaluator that outputs confusion matrices and F1 comparisons.
+
+</td>
+<td width="50%" valign="top">
+
+### [Fractal Inference Swarms](https://github.com/Sushmit94/Fractal-Inference-Swarms) · Distributed AI inference
+Mesh of inference nodes that route tasks to available compute, with pay-per-request access.
+
+`Multi-agent orchestration` `x402` `Cortensor`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+
 
 </td>
 </tr>
 </table>
 
-<details>
-<summary><b>⊕ More Projects</b></summary>
 
-<br/>
-
-**CollabFlow** — Real-time collaborative workspace · Yjs CRDTs · Redis Pub/Sub · WebSockets · `<50ms` propagation latency · same sync model powering Notion & Figma
-
-**Solidity CTF Platform** — "LeetCode for Solidity" · Docker-sandboxed Foundry execution workers · BullMQ job queue · Redis bytecode caching reducing recompilation by **~70%**
-
-**AI Drive Yield** — FastAPI microservice delivering DeFi yield allocation across 50+ protocols at **10,000+ QPM** · improved portfolio Sharpe ratios **25%** in backtests · [$1M+ in automated DeFi strategies](https://aidriveyield.vercel.app)
-
-</details>
 
 ---
 
-## ◈ Tech Stack
+## Tech Stack
+
+| Area | Tools |
+|:--|:--|
+| **Languages** | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat-square&logo=fastify&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![WebSockets](https://img.shields.io/badge/-WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white) |
+| **Data & Infra** | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![BullMQ](https://img.shields.io/badge/-BullMQ-FF6B6B?style=flat-square&logo=bull&logoColor=white) |
+| **Frontend** | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white) |
+| **AI / ML** | ![PyTorch](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![LangChain](https://img.shields.io/badge/-LangChain-121212?style=flat-square&logo=langchain&logoColor=white) ![AutoGen](https://img.shields.io/badge/-AutoGen-0078D4?style=flat-square&logo=microsoft&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude%20API-D97706?style=flat-square&logo=anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white) |
+| **Web3 (secondary)** | ![Ethereum](https://img.shields.io/badge/-EVM%20%C2%B7%20Foundry-3C3C3D?style=flat-square&logo=ethereum&logoColor=white) ![Solana](https://img.shields.io/badge/-Solana%20%C2%B7%20Anchor-9945FF?style=flat-square&logo=solana&logoColor=white) ![wagmi](https://img.shields.io/badge/-wagmi%20%2F%20viem-1C1C1C?style=flat-square) |
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
-**Languages**
+<img src="https://github-readme-stats.vercel.app/api?username=Sushmit94&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=7C3AED&icon_color=7C3AED" height="150" alt="stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sushmit94&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED" height="150" alt="top languages" />
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Frontend**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=for-the-badge&logo=webgl&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**Backend & Infra**
-
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-FF6B6B?style=for-the-badge&logo=bull&logoColor=white)
-
-**Blockchain / ZK**
-
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=ethereum&logoColor=white)
-![wagmi](https://img.shields.io/badge/wagmi/viem-1C1C1C?style=for-the-badge&logo=ethereum&logoColor=white)
-![Midnight](https://img.shields.io/badge/Midnight%20IOG-8B5CF6?style=for-the-badge&logo=cardano&logoColor=white)
-![Noir](https://img.shields.io/badge/Noir%2FNargo-1A1A2E?style=for-the-badge&logo=ethereum&logoColor=white)
-
-**AI / ML**
-
-![Claude API](https://img.shields.io/badge/Claude%20API-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
-![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="90%" alt="contribution snake" />
 
 </div>
 
 ---
 
-## ◈ Achievements
-
 <div align="center">
 
-| | Recognition |
-|:---:|:---|
-| 🧠 | **TRI AI Cohort** — Selected by Google DeepMind for AI research & engineering |
-| 🦄 | **Uniswap Hook Incubator Graduate** — Competitive DeFi protocol engineering by Uniswap Foundation |
-| 🔮 | **Midnight (IOG) Ambassador** — ZK privacy tech · Cardano ecosystem |
-| 🔗 | **Organizing Committee** · LNMhacks 7.0 · Web3 + Blockchain Track |
-| 🌐 | **20+ Smart Contracts** deployed across Ethereum & Solana mainnets |
 
-</div>
+[Email me](mailto:sushmitshrm@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sushmit-sharma-969aa8323/)
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=90&section=footer" alt="footer" />
 
-## ◈ GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sushmit94&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=A855F7&icon_color=A855F7&text_color=c9d1d9" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sushmit94&theme=tokyonight&hide_border=true&background=0d1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7" height="165"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sushmit94&bg_color=0d1117&color=A855F7&line=7C3AED&point=A855F7&hide_border=true&area=true&area_color=A855F7" width="95%"/>
-</div>
-
----
-
-## ◈ Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sushmit-sharma-969aa8323/)
-[![Twitter / X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/sushmit6973)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sushmitshrm@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sushmit94)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
 </div>
